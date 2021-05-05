@@ -25,8 +25,12 @@ public class YahooPageTest extends BaseTest{
         System.out.println("There are " + allTags.size() + " links on this page");
 
         // Step 3. Write an enhanced for-each loop that will print each of the links from step 2
-        for(int i = 0; i < allTags.size(); i++){
-            System.out.println(allTags.get(i).getAttribute("href"));
+//        for(int i = 0; i < allTags.size(); i++){
+//            System.out.println(allTags.get(i).getAttribute("href"));
+//        }
+
+        for (WebElement tag : allTags) {
+            System.out.println(tag.getAttribute("href"));
         }
 
         // Step 4. Enter 'New York City' in the search bar on the top
