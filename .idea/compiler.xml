@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Viventium" />
         <module name="MyInsightsStudio" />
+        <module name="veventium" />
       </profile>
     </annotationProcessing>
   </component>

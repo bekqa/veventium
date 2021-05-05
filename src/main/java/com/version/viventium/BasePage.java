@@ -1,4 +1,4 @@
-package com.veevacrmqa.viventium;
+package com.version.viventium;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;

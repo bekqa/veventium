@@ -1,4 +1,4 @@
-package com.veevacrmqa.viventium;
+package com.version.viventium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
